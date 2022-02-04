@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CharacterCell" customModule="Marvel_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="316" height="191"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="316" height="191"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cdt-3v-rL8">
+                        <rect key="frame" x="0.0" y="0.0" width="316" height="191"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="IWp-5x-GgV">
+                                <rect key="frame" x="0.0" y="0.0" width="316" height="191"/>
+                            </imageView>
+                            <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3o3-Ki-ztz">
+                                <rect key="frame" x="0.0" y="104" width="316" height="87"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Spider Man" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGg-fo-i7Q">
+                                <rect key="frame" x="10" y="114" width="296" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qwuhd wc weuf lch bjbdc ksd bcsbd cksbdckbs d" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26x-bo-aQ5">
+                                <rect key="frame" x="10" y="140" width="296" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="DGg-fo-i7Q" secondAttribute="trailing" constant="10" id="5Ru-xH-xQ1"/>
+                            <constraint firstItem="DGg-fo-i7Q" firstAttribute="leading" secondItem="Cdt-3v-rL8" secondAttribute="leading" constant="10" id="8fa-fj-OBS"/>
+                            <constraint firstItem="DGg-fo-i7Q" firstAttribute="top" secondItem="3o3-Ki-ztz" secondAttribute="top" constant="10" id="Av6-8k-6OI"/>
+                            <constraint firstItem="IWp-5x-GgV" firstAttribute="top" secondItem="Cdt-3v-rL8" secondAttribute="top" id="CKb-E5-3xV"/>
+                            <constraint firstAttribute="bottom" secondItem="IWp-5x-GgV" secondAttribute="bottom" id="Ije-X3-nDq"/>
+                            <constraint firstAttribute="trailing" secondItem="26x-bo-aQ5" secondAttribute="trailing" constant="10" id="K4S-8y-G8v"/>
+                            <constraint firstItem="3o3-Ki-ztz" firstAttribute="leading" secondItem="Cdt-3v-rL8" secondAttribute="leading" id="TTa-X9-0bd"/>
+                            <constraint firstItem="26x-bo-aQ5" firstAttribute="leading" secondItem="Cdt-3v-rL8" secondAttribute="leading" constant="10" id="WVL-4O-ubV"/>
+                            <constraint firstAttribute="bottom" secondItem="3o3-Ki-ztz" secondAttribute="bottom" id="a77-6Q-Sep"/>
+                            <constraint firstItem="26x-bo-aQ5" firstAttribute="top" secondItem="DGg-fo-i7Q" secondAttribute="bottom" constant="5" id="l9t-8e-R1w"/>
+                            <constraint firstItem="IWp-5x-GgV" firstAttribute="leading" secondItem="Cdt-3v-rL8" secondAttribute="leading" id="mN3-iW-tJ0"/>
+                            <constraint firstAttribute="trailing" secondItem="3o3-Ki-ztz" secondAttribute="trailing" id="rh0-II-bXZ"/>
+                            <constraint firstItem="26x-bo-aQ5" firstAttribute="bottom" secondItem="3o3-Ki-ztz" secondAttribute="bottom" constant="-10" id="trY-58-lGb"/>
+                            <constraint firstAttribute="trailing" secondItem="IWp-5x-GgV" secondAttribute="trailing" id="xGj-Hv-1na"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Cdt-3v-rL8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="DDb-Kx-3Zy"/>
+                <constraint firstAttribute="bottom" secondItem="Cdt-3v-rL8" secondAttribute="bottom" id="etv-dI-6Ie"/>
+                <constraint firstItem="Cdt-3v-rL8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fO7-pk-NFn"/>
+                <constraint firstAttribute="trailing" secondItem="Cdt-3v-rL8" secondAttribute="trailing" id="yXN-3k-sqK"/>
+            </constraints>
+            <size key="customSize" width="316" height="191"/>
+            <connections>
+                <outlet property="BottomView" destination="3o3-Ki-ztz" id="9fI-0l-6MH"/>
+                <outlet property="bgView" destination="Cdt-3v-rL8" id="FQK-xh-scb"/>
+                <outlet property="descLabel" destination="26x-bo-aQ5" id="cIT-2k-hlN"/>
+                <outlet property="imgView" destination="IWp-5x-GgV" id="Aab-kV-7Zg"/>
+                <outlet property="titleLabel" destination="DGg-fo-i7Q" id="dxi-Fx-ebr"/>
+            </connections>
+            <point key="canvasLocation" x="516" y="124"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="1200" height="800"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
